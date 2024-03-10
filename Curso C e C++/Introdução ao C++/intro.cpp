@@ -29,11 +29,11 @@ int main()
     cout << "Hello, world";
     cout << "Valor :" << a;
 
-    scanf("%d", a);
-    scanf("%f", b);
-    scanf("%f", c);
-    scanf("%c", d);
-    scanf("%d", e);
+    scanf("%d", &a);
+    scanf("%f", &b);
+    scanf("%f", &c);
+    scanf("%c", &d);
+    scanf("%d", &e);
 
     cin >> "Valor : " >> a;
     cin >> b;
